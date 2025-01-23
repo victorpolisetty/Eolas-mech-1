@@ -292,7 +292,7 @@ def append_comments_to_tool_file(tool_file_path, comments):
         print(f"Error appending comments to {tool_file_path}: {e}")
 
 def main():
-    GPT_KEY = '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'
+    GPT_KEY = '<YOUR-GPT-KEY-HERE>'
     parser = argparse.ArgumentParser(description="CLI tool to create a custom Mech tool")
     parser.add_argument("api_file", help="Python file implementing the API logic")
     parser.add_argument("tool_name", help="The name for the new tool")
